@@ -1,0 +1,40 @@
+body {
+	margin : 0;
+	padding : 0;
+    text-align: center;
+}
+#video { 
+    position : fixed;
+	top : 0; 
+	left : 0;
+	min-width : 100 %;
+	min-height : 100 %;
+	width : auto;
+	height : auto;
+	z-index : -1;
+}
+#main{
+    position: relative;
+    top: 250px;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-family: 'Ovo', serif;
+    opacity: 0.8;
+}
+#head{
+    font-size: 3rem;
+}
+
+#sub{
+    font-size: 1rem;
+    margin-top: 150px;   
+}
+.start{
+    font-size: 1rem;
+    background: none;
+    border: 1px solid #FFFFFF;
+    width: 100px;
+    padding: 3px;
+    color: aliceblue;
+    margin-top: 10px;
+}
